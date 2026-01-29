@@ -105,7 +105,7 @@ Für den Upload wird das **s3 cmd Tool** benötigt.
 **Im Terminal folgenden Befehl ausführen:**
 
 ```bash
-aws configure 
+s3cmd --configure
 ```
 
 **Geben Sie die Werte wie folgt ein:**
@@ -123,8 +123,7 @@ Default output format → json
 Geben Sie in der Console nun folegenden Befehl ein 
 
 ```bash
-aws s3 cp "PFAD_ZUR_DATEI" s3://IhrBucketnamen/ --endpoint-url https://object.storage.eu01.onstackit.cloud
-
+s3cmd put PFAD_ZUR_DATEI s3://IHR_BUCKETNAME/
 ```
 **Auf der Weboberfläche unter dem dem Reiter Bucket wird diese Datei nicht angezeigt!**
 
