@@ -68,14 +68,15 @@ Ziel dieses Schritts:
 
 **Schritt 2: Header der CDN-Antowrt anzeigen**
 
-**Führe jetzt genau diesen Befehl aus:**
+**Führen Sie bitte jetzt genau diesen Befehl aus:**
 
 ```bash
 curl.exe -I $URL
 ```
 
 **Sie sollten jetzt eine Auflistung sehen:**
-**Tragen Sie die Sachen in eine Tabelle ein und betten Sie diesen :**
+
+**Tragen Sie die die übergeben Prameter in eine Tabelle wie unten dargestellt ein:**
 
 | HTTP-Header / Feld           | Bedeutung / Beobachtung (ausfüllen) |
 |-----------------------------|-------------------------------------|
@@ -125,13 +126,13 @@ curl -o testvideo_1080p.mp4 https://<DeinDomainname>.global.ssl.fastly.net/testv
 curl -o testvideo_720p.mp4 https://<DeinDomainname>.global.ssl.fastly.net/testvideo_720p.mp4
 curl -o testvideo_460p.mp4 https://<DeinDomainname>.global.ssl.fastly.net/testvideo_460p.mp4
 ```
-**Sie sollten folgenden Auswurf bekommen:**
+**Sie sollten folgenden Ausgabe erhalten:**
 
 ![ObjectSTorage](../../assets/Versuch3/downloadsuc.jpg)
 
 
 
- **Nun ünerprüfen ob die Videodatei abgelegt sind:**
+ **Nun überprüfen ob die Videodateien abgelegt wurden:**
 
 **Als nächsten beschäftigen wir uns mit der ANalyse. Geben sie hierfür folgenden Command ein:**
 
@@ -145,7 +146,7 @@ testvideo_1080p.mp4
 **Dies sieht dann so aus:**
 ![ObjectSTorage](../../assets/Versuch3/stream.jpg)
 
-**Kopieren SIe sich die Ausgabe in ein separates Textdokument**
+**Kopieren Sie sich die Ausgabe in ein separates Textdokument**
 
 **Das gleiche bitte auch für die 720p Variante:**
 ```bash
@@ -155,16 +156,16 @@ ffprobe -v error `
 testvideo_720p.mp4
 ```
 
-**Kopieren SIe sich die Ausgabe in ein separates Textdokument**
+**Kopieren Sie sich die Ausgabe in ein separates Textdokument**
 
-**Das gleiche bitte auch für die 460p Variante:**
+**Das gleiche wiederholen wir nun für die 460p Variante:**
 ```bash
 ffprobe -v error `
 -show_format `
 -show_streams `
 testvideo_460p.mp4
 ```
-**Kopieren SIe sich die Ausgabe in ein separates Textdokument**
+**Kopieren Sie sich die Ausgabe in ein separates Textdokument**
 
 <div style="
   border: 2px solid #ffffff;
