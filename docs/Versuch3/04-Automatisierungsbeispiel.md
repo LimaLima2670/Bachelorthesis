@@ -53,9 +53,7 @@ cd reaction-test
 **Laden Sie nun auch hier wieder einer der 3 transcodierten Files aus dem Bucket herunter mit folgendem Command:**
 
 ```bash
-aws s3 cp s3://<DeinBucketname>/testvideo_1080p.mp4 \
-testvideo_1080p.mp4 \
---endpoint-url https://object.storage.eu01.onstackit.cloud
+s3cmd get s3://<DeinBucketname>/testvideo_1080p.mp4 testvideo_1080p.mp4
 ```
 
 
@@ -67,9 +65,7 @@ testvideo_1080p.mp4 \
 **Gebe nun folgenden Befehl ein:**
 
 ```bash
-aws s3 ls s3://leonueberholz-4567 \
---endpoint-url https://object.storage.eu01.onstackit.cloud \
-> bucket_state_before.txt
+s3cmd ls s3://leonueberholz-4567 > bucket_state_before.txt
 ```
 
 <div style="
@@ -85,16 +81,14 @@ aws s3 ls s3://leonueberholz-4567 \
   Betrachten Sie folgenden Befehl:
 
   <pre><code>
-aws s3 ls s3://leonueberholz-4567 \
---endpoint-url https://object.storage.eu01.onstackit.cloud \
-> bucket_state_before.txt
+s3cmd ls s3://leonueberholz-4567 > bucket_state_before.txt
   </code></pre>
 
   <br>
   Beschreiben Sie in eigenen Worten:
   <ul>
-    <li>Was der Command genau bezweckt?</li>
-
+    <li>Was der Befehl genau bewirkt</li>
+    <li>Warum die Ausgabe in eine Datei umgeleitet wird</li>
   </ul>
 </div>
 
@@ -104,9 +98,7 @@ aws s3 ls s3://leonueberholz-4567 \
  **Jetzt rufen wir mit folgendme Befehl eine Änderung im Bucket hervor:**
 
 ```bash
-aws s3 cp testvideo_1080p.mp4 \
-s3://<DeinBucketname>/testvideo_1080p.mp4 \
---endpoint-url https://object.storage.eu01.onstackit.cloud
+s3cmd put testvideo_1080p.mp4 s3://<DeinBucketname>/testvideo_1080p.mp4
 ```
 
 **Das sollte so aussehen:**
@@ -118,9 +110,7 @@ s3://<DeinBucketname>/testvideo_1080p.mp4 \
 **Jetzt speichern wir den Zustand nach der Änderung.**
 
 ```bash
-aws s3 ls s3://<DeinBucketname> \
---endpoint-url https://object.storage.eu01.onstackit.cloud \
-> bucket_state_after.txt
+s3cmd ls s3://<DeinBucketname> > bucket_state_after.txt
 ```
 
 **und vergleichen den Vorher Nachher Zustand**
