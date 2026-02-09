@@ -37,8 +37,7 @@ ssh@ubuntu<DEINESERVERIP>
 **Nun prüfen ob die Videos draufliegen:**
 
 ```bash
-aws s3 ls s3://<DEINBUCKETNAME>/ \
---endpoint-url https://object.storage.eu01.onstackit.cloud
+s3cmd ls s3://<DEINBUCKETNAME>/
 ```
 
 Der Object Storage übernimmt die Rolle des **Origin Servers**.
