@@ -143,7 +143,7 @@ Segmented Caching ist standardmäßig nicht aktiv und muss gezielt konfiguriert 
 Navigieren Sie unter **LOGGING** zu dem Reiter Snippets
 
 
-![ObjectSTorage](../../assets/Versuch2/servicedone.jpg)
+![ObjectSTorage](../../assets/Versuch2/VLC SNIPPET.jpg)
 
 
 
