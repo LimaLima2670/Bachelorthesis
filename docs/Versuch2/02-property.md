@@ -132,8 +132,31 @@ https://<namenachname>.global.ssl.fastly.net/<deinBucketname>/testvideo_1080p.mp
 
 **Das Problem lässt sich lösen indem wir nun in StackIt weiter machen:**
 
+### 2. VLC Anpassungen
 
-### 2. Zugriffsrechte erstellen:
+Bei der Auslieferung großer Videodateien aus dem STACKIT Object Storage über Fastly stößt die Standardkonfiguration schnell an Grenzen. Für neue Fastly-Accounts dürfen Objekte ohne Zusatzfunktionen nur bis zu einer Größe von 20 MB im Cache gespeichert werden. Das verwendete Testvideo (testvideo.mp4) ist deutlich größer, weshalb ein normaler Cache-Zugriff zu einer Fehlermeldung („Response object too large“) führt.
+
+Um solche Dateien trotzdem performant über das CDN ausliefern zu können, bietet Fastly Segmented Caching an. Dabei wird das Video nicht als einzelne große Datei im Cache abgelegt, sondern in kleinere Abschnitte zerlegt. Diese Segmente lassen sich unabhängig voneinander zwischenspeichern und bei Bedarf wieder zusammensetzen. Das passt gut zu typischen Videoabrufen, da moderne Mediaplayer Inhalte ohnehin in Form von Byte-Range-Anfragen anfordern.
+
+Segmented Caching ist standardmäßig nicht aktiv und muss gezielt konfiguriert werden.
+
+Navigieren Sie unter **LOGGING** zu dem Reiter Snippets
+
+
+![ObjectSTorage](../../assets/Versuch2/servicedone.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+### 3. Zugriffsrechte erstellen:
 
 **Stack It erlaubt es anders als AWS nicht die Zugriffsrechte auf der Website UI anzupassen. Hierfür müssen wir der VM die Rechte händisch mitgeben. Das klingt komplizierter als es eigentlich ist. In ein paar Schritten ist dies getan**
 
