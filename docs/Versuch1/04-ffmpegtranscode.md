@@ -13,6 +13,11 @@ Zunächst wird eine Verbindung zur zuvor erstellten virtuellen Maschine hergeste
 ```bash
 ssh -i <PFAD_ZUM_PRIVATE_KEY> ubuntu@<PUBLIC-IP-DER-VM>
 ```
+
+
+Zur Verbindugn werden wieder ihre Keys benötigt, welche Sie sich notiert haben sollten. Geben Sie diese dort ein!
+
+
 <div style="
   border: 2px solid #ffffff;
   padding: 14px;
