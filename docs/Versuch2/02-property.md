@@ -157,7 +157,7 @@ if (req.url.ext == ".ts") {
 }
 ```
 
-
+![ObjectSTorage](../../assets/Versuch2/Settingsvlc.jpg)
 
 
 
