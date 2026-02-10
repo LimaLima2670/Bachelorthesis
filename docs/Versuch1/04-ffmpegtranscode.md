@@ -285,7 +285,7 @@ Der ausgeführte FFmpeg-Befehl erzeugt aus der Eingabedatei testvideo.mp4 mehrer
 
 Im vorliegenden Befehl wird der Videostream der Quelldatei dreimal verwendet **(-map 0:v:0)**. Jede dieser Kopien wird anschließend separat verarbeitet: Eine Variante wird auf **480p** skaliert, eine auf **720p** und eine auf **1080p.** Gleichzeitig werden für jede Auflösung passende Zielbitraten definiert, sodass jede Version eine eigene, klar abgegrenzte Qualitätsstufe darstellt.
 
-Mithilfe der Option **-var_stream_map** werden diese Varianten logisch zusammengefasst. FFmpeg erzeugt daraus automatisch eine zentrale Master-Playlist **(master.m3u8)** sowie jeweils eine eigene Playlist und Segmentdateien pro Qualitätsstufe.
+Mithilfe der Option **-var_stream_map** werden diese Varianten logisch zusammengefasst. FFmpeg erzeugt daraus automatisch mehrere zentrale Master-Playlists **(master.m3u8)** sowie jeweils eigene Playlists und Segmentdateien pro Qualitätsstufe.
 
 Ein HLS-Player kann anhand dieser Struktur während der Wiedergabe zwischen den erzeugten Varianten wechseln und so die Videoqualität an die aktuelle Netzwerkverbindung anpassen. Der Transcoding-Schritt bildet damit die technische Grundlage für adaptives Streaming im Video-on-Demand-Workflow.
 
