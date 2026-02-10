@@ -111,10 +111,17 @@ s3cmd --configure
 **Geben Sie die Werte wie folgt ein:**
 
 ```bash
-AWS Access Key ID     → eigener Access Key
-AWS Secret Access Key → eigener Secret Key
+Access Key → eigener Access Key
+Secret Key → eigener Secret Key
 Default region name   → eu01
-Default output format → json
+S3-Endpoint → object.storage.eu01.onstackit.cloud
+DNS-style bucket+hostname: %(bucket)s.object.storage.eu01.onstackit.cloud
+Encryption password: **Enter drücken**
+Path to GPG program [/usr/bin/gpg]: **Enter drücken**
+Use HTTPS Protocol: Yes
+HTTP Proxy server name: **Enter drücken**
+Test access with supplied credentials? [Y/n]: n
+Save settings? [y/N]: y
 ```
 ## Upload des Videos in den Bucket
 
