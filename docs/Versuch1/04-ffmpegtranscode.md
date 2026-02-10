@@ -314,7 +314,7 @@ Der Parameter -bufsize beschreibt die Größe des Rate-Control-Puffers und besti
 ```bash
 ls -lh hls_output
 ```
-![S3 Dashboard](../../assets/Versuch1/moremasters.jpg)
+![S3 Dashboard](../../assets/Versuch1/moremasterplaylists.jpg)
 
 Anzeigen der Manifestdatei
 
