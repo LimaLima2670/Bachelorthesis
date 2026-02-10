@@ -145,7 +145,17 @@ Navigieren Sie unter **LOGGING** zu dem Reiter Snippets
 
 ![ObjectSTorage](../../assets/Versuch2/VLCSNIPPET.jpg)
 
+Übergeben Sie auf der Einrichtungsmaske folgende Parameter:
 
+**Name:** enable-segmented-caching.mp4
+**Placement:** Within subroutine
+**Subroutine:** recv(vcl_recv)
+**Priority:** 100
+```bash
+if (req.url.ext == ".ts") {
+  set req.enable_segmented_caching = true;
+}
+```
 
 
 
