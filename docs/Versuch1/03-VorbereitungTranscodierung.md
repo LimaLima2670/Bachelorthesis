@@ -97,7 +97,7 @@ Sie haben nun die Möglichkeit das erzeugte Keypaar auf ihrem StACKIT-Konto zu v
 
 Navigieren sie hierzu als erstes zu ihren Nutzereinstellungen:
 
-
+![S3 Dashboard](../../assets/Versuch1/Benutzereinstellungen.jpg)
 
 
 
