@@ -107,7 +107,7 @@ Sie haben nun die Möglichkeit das erzeugte Keypaar auf ihrem StACKIT-Konto zu v
 
 **Für den Schlüssel wird ihr Publickey benötigt**
 
-
+**Anschließend auf Create klicken**
 
 
 
