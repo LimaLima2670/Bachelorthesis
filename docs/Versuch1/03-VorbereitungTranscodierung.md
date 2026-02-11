@@ -91,6 +91,13 @@ gespeichert.
 
 Bei der Servererstellung kann hierfür später das erstellte Schlüsselpaar verwendet werden
 
+### Schritt 3: Einrichtung des Keys auf der Stackit Weboberfläche
+
+Sie haben nun die Möglichkeit das erzeugte Keypaar auf ihrem StACKIT-Konto zu verknüpfen.
+
+Navigieren sie hierzu als erstes zu ihren Nutzereinstellungen:
+
+
 
 
 
