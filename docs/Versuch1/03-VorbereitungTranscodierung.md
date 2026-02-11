@@ -95,9 +95,21 @@ Bei der Servererstellung kann hierfür später das erstellte Schlüsselpaar verw
 
 Sie haben nun die Möglichkeit das erzeugte Keypaar auf ihrem StACKIT-Konto zu verknüpfen.
 
-Navigieren sie hierzu als erstes zu ihren Nutzereinstellungen:
+**Navigieren sie hierzu als erstes zu ihren Nutzereinstellungen:**
 
 ![S3 Dashboard](../../assets/Versuch1/Benutzereinstellungen.jpg)
+
+**Unter Passwort&Sicherheit finden Sie nun den Reiter SSH-Schlüssel. Klicken Sie bitte da drauf:**
+
+![S3 Dashboard](../../assets/Versuch1/sshkeyclick.jpg)
+
+
+
+
+
+
+
+
 
 
 
