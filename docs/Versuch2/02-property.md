@@ -152,7 +152,7 @@ Navigieren Sie unter **LOGGING** zu dem Reiter Snippets
 **Subroutine:** recv(vcl_recv)
 **Priority:** 100
 ```bash
-if (req.url.ext == ".ts") {
+if (req.url.ext == ".mp4") {
   set req.enable_segmented_caching = true;
 }
 ```
