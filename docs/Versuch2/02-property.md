@@ -157,7 +157,7 @@ if (req.url.ext == ".mp4") {
 }
 ```
 
-![ObjectSTorage](../../assets/Versuch2/Settingsvlc.jpg)
+![ObjectSTorage](../../assets/Versuch2/mp4renewal.jpg)
 
 
 
