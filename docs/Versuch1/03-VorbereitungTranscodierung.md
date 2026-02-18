@@ -89,7 +89,20 @@ Nun wird derSchlüssel standardmäßig im Ordner
 
 gespeichert.
 
-Bei der Servererstellung kann hierfür später das erstellte Schlüsselpaar verwendet werden
+Bei der Servererstellung kann hierfür später das erstellte Schlüsselpaar verwendet werden.
+
+Um sich erfolgreich mit der VM nun verbinden zu können benötigen Sie folgenden Befehl:
+
+```bash
+ssh -i <priv-key-file> ubuntu@<public ip der vm>
+```
+**Für Linux und MACOS gilt:**
+
+```bash
+chmod 400 <priv-key-file> ubuntu@<public ip der vm>
+```
+Wichtig: Der Private-Key darf hierbei nur für Sie lesbar sein!
+
 
 ### Schritt 3: Einrichtung des Keys auf der Stackit Weboberfläche
 
