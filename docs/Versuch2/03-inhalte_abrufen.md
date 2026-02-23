@@ -85,8 +85,6 @@ Typische Fehlermeldungen:
 - levelLoadError
 - Segmente werden nicht geladen
 
-![ObjectSTorage](../../assets/Versuch2/cors.jpg)
-
 
 ### Lösung: CORS-Browser-Extension
 
@@ -102,6 +100,8 @@ https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgce
 2. In Chrome auf das Puzzle-Symbol klicken  
 3. CORS-Extension auswählen  
 4. „Toggle ON“ aktivieren  
+
+![ObjectSTorage](../../assets/Versuch2/cors.jpg)
 
 ---
 
