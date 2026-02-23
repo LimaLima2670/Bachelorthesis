@@ -105,8 +105,17 @@ https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgce
 
 ---
 
+Nach Aktivierung der Extension:
+
+1. Zur hls.js Demo-Seite zurückkehren  
+2. Beispiel-URL im Player ersetzen  
+
+### URL-Struktur
 
 
+https://<FASTLY-EDGE-HOSTNAME>/<HLS-ORDNER>/master.m3u8
+
+---
 
 
 
