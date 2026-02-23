@@ -71,6 +71,8 @@ Der Player ist erreichbar unter:
 
 https://hlsjs.video-dev.org/demo/
 
+![ObjectSTorage](../../assets/Versuch2/hlsplayer.jpg)
+
 ---
 ## ⚠️ Wichtiger Hinweis zu CORS (zwingend erforderlich)
 
