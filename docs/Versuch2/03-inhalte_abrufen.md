@@ -85,6 +85,9 @@ Typische Fehlermeldungen:
 - levelLoadError
 - Segmente werden nicht geladen
 
+![ObjectSTorage](../../assets/Versuch2/cors.jpg)
+
+
 ### Lösung: CORS-Browser-Extension
 
 Für diesen Versuch ist die Verwendung einer CORS-Extension erforderlich.
