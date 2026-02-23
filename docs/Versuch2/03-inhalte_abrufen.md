@@ -58,6 +58,57 @@ curl.exe -I "https://<username>.global.ssl.fastly.net/testvideo_1080p.mp4"
   </ul>
 </div>
 
+# Wiedergabe des HLS-Streams (STACKIT + Fastly)
+
+Nun soll auch praktisch geschaut werden ob das Video abspielbar im Browser zu sehen ist. Hierfür gilt die nun folgende Anleitung:
+
+---
+## HLS-Test mit hls.js Demo Player
+
+Zur Überprüfung der adaptiven HLS-Wiedergabe wird die offizielle Demo-Instanz von hls.js verwendet.
+
+Der Player ist erreichbar unter:
+
+https://hlsjs.video-dev.org/demo/
+
+---
+## ⚠️ Wichtiger Hinweis zu CORS (zwingend erforderlich)
+
+Der Demo-Player wird von einer anderen Domain geladen als der HLS-Stream (Fastly).  
+Aufgrund der Same-Origin-Policy blockiert der Browser standardmäßig die Segment-Dateien.
+
+Typische Fehlermeldungen:
+
+- manifestLoadError
+- levelLoadError
+- Segmente werden nicht geladen
+
+### Lösung: CORS-Browser-Extension
+
+Für diesen Versuch ist die Verwendung einer CORS-Extension erforderlich.
+
+Beispiel (Chrome):
+
+https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
+
+### Aktivierung von CORS
+
+1. Extension installieren  
+2. In Chrome auf das Puzzle-Symbol klicken  
+3. CORS-Extension auswählen  
+4. „Toggle ON“ aktivieren  
+
+
+
+
+
+
+
+
+
+
+
+
 # Was wurde praktisch erreicht?
 
 Transcodierte Videodateien wurden erfolgreich über ein CDN ausgeliefert
