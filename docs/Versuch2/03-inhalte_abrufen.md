@@ -112,10 +112,10 @@ Nach Aktivierung der Extension:
 
 ### URL-Struktur
 
-bash```
-https://<DeinBucketname>.object.storage.eu01.onstackit.cloud/hls/master.m3u8
-```
 
+**https://<DeinBucketname>.object.storage.eu01.onstackit.cloud/hls/master.m3u8**
+
+![ObjectSTorage](../../assets/Versuch2/runningvid.jpg)
 
 ---
 
