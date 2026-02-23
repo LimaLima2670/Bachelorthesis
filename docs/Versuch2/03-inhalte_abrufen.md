@@ -116,13 +116,8 @@ bash```
 https://<DeinBucketname>.object.storage.eu01.onstackit.cloud/hls/master.m3u8
 ```
 
+
 ---
-
-
-
-
-
-
 
 
 # Was wurde praktisch erreicht?
