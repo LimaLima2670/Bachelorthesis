@@ -98,6 +98,7 @@ https://chromewebstore.google.com/detail/allow-cors-access-control/lhobafahddgce
 3. CORS-Extension auswählen  
 4. „Toggle ON“ aktivieren  
 
+---
 
 
 
