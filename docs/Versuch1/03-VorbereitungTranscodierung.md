@@ -106,7 +106,7 @@ Wichtig: Der Private-Key darf hierbei nur für Sie lesbar sein!
 
 ### Schritt 3: Einrichtung des Keys auf der Stackit Weboberfläche
 
-Sie haben nun die Möglichkeit das erzeugte Keypaar auf ihrem StACKIT-Konto zu verknüpfen.
+Sie haben nun die Möglichkeit das erzeugte Keypaar auf ihrem STACKIT-Konto zu verknüpfen.
 
 **Navigieren sie hierzu als erstes zu ihren Nutzereinstellungen:**
 
