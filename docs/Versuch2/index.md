@@ -22,13 +22,12 @@ Im Rahmen dieses Versuchs werden folgende Aspekte behandelt:
 
 ## Kapitel
 
-- [Einleitung](00-einleitung.md)
-- [Theoretische Grundlagen CDN](01-grundlagen-cdn.md)
-- [Einrichtung von Fastly](02-fastly-einrichtung.md)
-- [Anbindung an Object Storage](03-origin-anbindung.md)
+- [Einleitung](01-einfuehrung.md)
+- [Theoretische Grundlagen CDN](02-property.md)
+- [Einrichtung von Fastly](03-inhalte_abrufen.md)
+- [Anbindung an Object Storage](04-fazit.md)
 - [Cache-Analyse](04-cache-analyse.md)
-- [Messungen und Ergebnisse](05-messungen.md)
-- [Fazit](06-fazit.md)
+
 
 ---
 
