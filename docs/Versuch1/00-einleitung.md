@@ -112,7 +112,7 @@ Bereitstellung vollständig betriebener Anwendungen[^1].
 Cloud-Produkte lassen sich in der Regel über eine grafische Weboberfläche verwalten.
 Bei STACKIT erfolgt der Zugriff über das STACKIT Portal.
 
-![STACKIT Weboberfläche](../assets/Versuch1/StackIT-GUI.jpg)
+![STACKIT Weboberfläche](../assets/StackIT-GUI.jpg)
 
 ### Kommandozeile
 
