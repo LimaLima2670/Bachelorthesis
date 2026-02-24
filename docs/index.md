@@ -16,9 +16,9 @@ der Anbieter StackIT und Fastly.
 
 | Nr. | Beschreibung |
 |----|-------------|
-| [Versuch 1](Versuch1/index.md) | Grundlagen cloudbasierter Transcoding-Workflows |
-| [Versuch 2](Versuch2/index.md) | Content-Auslieferung über CDN |
-| [Versuch 3](Versuch3/index.md) | Aufbau eines automatisierten VOD-Workflows |
+| [Versuch 1](Versuch1/) | Grundlagen cloudbasierter Transcoding-Workflows |
+| [Versuch 2](Versuch2/) | Content-Auslieferung über CDN |
+| [Versuch 3](Versuch3/) | Aufbau eines automatisierten VOD-Workflows |
 
 ---
 
