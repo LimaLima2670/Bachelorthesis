@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
+
+  <!-- Moderne Schrift -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Eigenes CSS -->
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 
@@ -14,9 +19,33 @@
     <h2>Navigation</h2>
 
     <ul>
-      <li><a href="{{ '/docs/Versuch1/' | relative_url }}">Versuch 1</a></li>
-      <li><a href="{{ '/docs/Versuch2/' | relative_url }}">Versuch 2</a></li>
-      <li><a href="{{ '/docs/Versuch3/' | relative_url }}">Versuch 3</a></li>
+      <li>
+        <a href="{{ '/' | relative_url }}"
+           class="{% if page.url == '/' %}active{% endif %}">
+           Überblick
+        </a>
+      </li>
+
+      <li>
+        <a href="{{ '/docs/Versuch1/' | relative_url }}"
+           class="{% if page.url contains 'Versuch1' %}active{% endif %}">
+           Versuch 1
+        </a>
+      </li>
+
+      <li>
+        <a href="{{ '/docs/Versuch2/' | relative_url }}"
+           class="{% if page.url contains 'Versuch2' %}active{% endif %}">
+           Versuch 2
+        </a>
+      </li>
+
+      <li>
+        <a href="{{ '/docs/Versuch3/' | relative_url }}"
+           class="{% if page.url contains 'Versuch3' %}active{% endif %}">
+           Versuch 3
+        </a>
+      </li>
     </ul>
 
   </aside>
