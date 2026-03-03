@@ -124,7 +124,7 @@ https://<namenachname>.global.ssl.fastly.net/<deinBucketname>/testvideo_1080p.mp
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Aufgabe:
+    Aufgabe 6:
   </span><br>
  Was sehen Sie? Fertigen Sie hierfür bitte einen Screenshot an und tragen Sie diesen in ihre Abgabemappe ein.
  Interpretieren Sie die angegebene Nachricht 
@@ -245,7 +245,7 @@ https://<namenachname>.global.ssl.fastly.net/testvideo_1080p.mp4
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 4:
+    Aufgabe 7:
   </span><br>
   Mit welchem Kommandozeilenbefehl können Sie überprüfen, auf welche IP-Adressen der CDN-Hostname aufgelöst wird und welcher Edge-Server für die Auslieferung der Inhalte verwendet wird? Fertigen Sie hierzu einen Screenshot der Ausgabe an.
   
