@@ -75,7 +75,7 @@ s3cmd ls s3://leonueberholz-4567 > bucket_state_before.txt
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Aufgabe 12
+    Aufgabe 13
   </span><br><br>
 
   Betrachten Sie folgenden Befehl:
@@ -228,7 +228,7 @@ der Cache sich selbst aktualisiert, sobald neue Inhalte angefragt werden
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Aufgabe 13: Automatische Reaktion im CDN-Workflow
+    Aufgabe 14: Automatische Reaktion im CDN-Workflow
   </span><br><br>
 
   In diesem Versuch wurde bewusst <b>keine</b> Cloud Function,
@@ -256,7 +256,7 @@ der Cache sich selbst aktualisiert, sobald neue Inhalte angefragt werden
   </ul>
 
   <br>
-  Aufgabe 14:
+  Aufgabe 15:
   <br>
   <b>Bewerten Sie, warum dieses einfache Reaktionsmodell in der Praxis
   für viele Video-on-Demand-Workflows ausreichend ist</b>
