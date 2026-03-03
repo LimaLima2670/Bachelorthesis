@@ -1,13 +1,6 @@
 title: STACKIT-Praktikumsversuch
 description: Versuchsablauf des STACKIT-Versuchs für MVS
-theme: jekyll-theme-midnight
 
-nav:
-  - title: Überblick
-    url: /docs/
-  - title: Versuch 1
-    url: /docs/Versuch1/
-  - title: Versuch 2
-    url: /docs/Versuch2/
-  - title: Versuch 3
-    url: /docs/Versuch3/
+theme: jekyll-theme-minimal
+
+markdown: kramdown
