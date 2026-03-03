@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Versuch 2
+title: Versuch 1
+prev: /docs/Versuch2/
+next: /docs/Versuch3/01-einfuehrung/
 ---
 
 
