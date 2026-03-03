@@ -1,49 +1,63 @@
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
-.wrapper {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background-color: #0f1117;
+  color: #e6edf3;
   display: flex;
 }
 
-.sidebar {
+/* Sidebar */
+nav {
   width: 260px;
-  background-color: #1e1e1e;
-  padding: 25px;
-  min-height: 100vh;
-  border-right: 1px solid #333;
+  background-color: #161b22;
+  padding: 40px 20px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-right: 1px solid #30363d;
 }
 
-.sidebar h2 {
+nav h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 
-.sidebar ul {
-  list-style: none;
-  padding: 0;
+nav a {
+  display: block;
+  text-decoration: none;
+  color: #c9d1d9;
+  padding: 10px 12px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  transition: all 0.2s ease;
+  font-size: 15px;
 }
 
-.sidebar li {
-  margin-bottom: 10px;
+nav a:hover {
+  background-color: #21262d;
+  color: #ffffff;
 }
 
-.sidebar a {
-  color: #bbbbbb;
+/* Content */
+main {
+  margin-left: 280px;
+  padding: 60px;
+  max-width: 900px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+/* Links im Content */
+main a {
+  color: #58a6ff;
   text-decoration: none;
 }
 
-.sidebar a:hover {
-  color: #00bcd4;
-}
-
-.content {
-  padding: 40px;
-  width: 100%;
-}
-
-h1, h2, h3 {
-  color: #ffffff;
+main a:hover {
+  text-decoration: underline;
 }
