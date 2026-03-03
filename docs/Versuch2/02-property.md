@@ -245,7 +245,7 @@ https://<namenachname>.global.ssl.fastly.net/testvideo_1080p.mp4
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage:
+    Frage 4:
   </span><br>
   Mit welchem Kommandozeilenbefehl können Sie überprüfen, auf welche IP-Adressen der CDN-Hostname aufgelöst wird und welcher Edge-Server für die Auslieferung der Inhalte verwendet wird? Fertigen Sie hierzu einen Screenshot der Ausgabe an.
   
