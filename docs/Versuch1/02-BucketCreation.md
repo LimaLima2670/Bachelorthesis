@@ -24,7 +24,7 @@ Dazu wird der **STACKIT Object Storage** verwendet, ein S3-kompatibler Objektspe
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 1:
+    Aufgabe 1:
   </span><br>
   Was ist ein Bucket im Object Storage?<br>
   Erläutern Sie, welche Aufgabe ein Bucket erfüllt. Erstellen Sie hierfür eine erklärende Skizze und fügen Sie diese in Ihre Abgabemappe hinzu.
@@ -141,7 +141,7 @@ s3cmd put PFAD_ZUR_DATEI s3://IHR_BUCKETNAME/
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 2:
+    Aufgabe 2:
   </span><br>
   Wie können Sie nun herausfinden ob der Upload wie geplant funktioniert hat? Recherchieren Sie nach dem benötigten Command und tragen Sie diesen in ihre Abgabemappe ein<br>
 </div>
