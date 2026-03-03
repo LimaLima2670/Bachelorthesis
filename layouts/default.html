@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
+
 <body>
 
-<div class="container">
+<div class="wrapper">
 
   <aside class="sidebar">
     <h2>Navigation</h2>
+
     <ul>
-      <li><a href="{{ '/docs/' | relative_url }}">Überblick</a></li>
       <li><a href="{{ '/docs/Versuch1/' | relative_url }}">Versuch 1</a></li>
       <li><a href="{{ '/docs/Versuch2/' | relative_url }}">Versuch 2</a></li>
       <li><a href="{{ '/docs/Versuch3/' | relative_url }}">Versuch 3</a></li>
     </ul>
+
   </aside>
 
   <main class="content">
