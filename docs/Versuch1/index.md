@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Versuch 1
+prev: /docs/Versuch1/
+next: /docs/Versuch2/01-einfuehrung/
 ---
-
 
 # Versuch 1  
 ## Grundlagen cloudbasierter Transcoding-Workflows
