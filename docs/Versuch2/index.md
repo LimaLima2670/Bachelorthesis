@@ -1,3 +1,10 @@
+---
+layout: default
+title: Versuch 2
+---
+
+
+
 # Versuch 2  
 ## Content-Auslieferung über CDN
 
