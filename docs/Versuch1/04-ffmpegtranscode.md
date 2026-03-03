@@ -580,7 +580,7 @@ MediaInfo zeigt unter anderem folgende Parameter an:
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Aufgabe:
+    Aufgabe 7:
   </span><br>
   
   **Nun ist ihre kreativität gefragt...**
