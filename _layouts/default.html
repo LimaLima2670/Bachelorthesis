@@ -2,9 +2,11 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
 
- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Moderne Schrift -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
   <!-- Eigenes CSS -->
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
@@ -14,6 +16,7 @@
 
 <div class="wrapper">
 
+  <!-- Sidebar -->
   <aside class="sidebar">
     <h2>Navigation</h2>
 
@@ -21,36 +24,54 @@
       <li>
         <a href="{{ '/' | relative_url }}"
            class="{% if page.url == '/' %}active{% endif %}">
-           Überblick
+          Überblick
         </a>
       </li>
 
       <li>
         <a href="{{ '/docs/Versuch1/' | relative_url }}"
            class="{% if page.url contains 'Versuch1' %}active{% endif %}">
-           Versuch 1
+          Versuch 1
         </a>
       </li>
 
       <li>
         <a href="{{ '/docs/Versuch2/' | relative_url }}"
            class="{% if page.url contains 'Versuch2' %}active{% endif %}">
-           Versuch 2
+          Versuch 2
         </a>
       </li>
 
       <li>
         <a href="{{ '/docs/Versuch3/' | relative_url }}"
            class="{% if page.url contains 'Versuch3' %}active{% endif %}">
-           Versuch 3
+          Versuch 3
         </a>
       </li>
     </ul>
-
   </aside>
 
+  <!-- Content -->
   <main class="content">
-    {{ content }}
+    <div class="page-container">
+      {{ content }}
+
+      <!-- Zurück / Weiter Navigation -->
+      <div class="doc-navigation">
+        {% if page.prev %}
+          <a class="nav-arrow left" href="{{ page.prev | relative_url }}">
+            ← Zurück
+          </a>
+        {% endif %}
+
+        {% if page.next %}
+          <a class="nav-arrow right" href="{{ page.next | relative_url }}">
+            Weiter →
+          </a>
+        {% endif %}
+      </div>
+
+    </div>
   </main>
 
 </div>
