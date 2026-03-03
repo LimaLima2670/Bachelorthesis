@@ -1,63 +1,91 @@
 body {
   margin: 0;
-  font-family: "Inter", "Segoe UI", sans-serif;
-  background-color: #0f1117;
-  color: #e6edf3;
+  font-family: "Inter", sans-serif;
+  background-color: #0b0f19;
+  color: #e5e7eb;
+}
+
+/* Layout */
+.wrapper {
   display: flex;
 }
 
 /* Sidebar */
-nav {
-  width: 260px;
-  background-color: #161b22;
-  padding: 40px 20px;
-  height: 100vh;
-  position: fixed;
-  left: 0;
-  top: 0;
-  border-right: 1px solid #30363d;
+.sidebar {
+  width: 240px;
+  padding: 40px 24px;
+  background-color: #0f172a;
+  min-height: 100vh;
 }
 
-nav h2 {
-  font-size: 18px;
-  margin-bottom: 20px;
-  color: #ffffff;
+.sidebar h2 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+  color: #f3f4f6;
 }
 
-nav a {
-  display: block;
-  text-decoration: none;
-  color: #c9d1d9;
-  padding: 10px 12px;
-  border-radius: 6px;
-  margin-bottom: 5px;
-  transition: all 0.2s ease;
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 8px;
+}
+
+/* 🔴 Unaufdringlicher Rotton */
+.sidebar a {
+  text-decoration: none !important;
+  color: #a63a3a;
   font-size: 15px;
+  transition: all 0.2s ease;
 }
 
-nav a:hover {
-  background-color: #21262d;
+.sidebar a:hover {
+  color: #c04646;
+}
+
+.sidebar a.active {
   color: #ffffff;
+  font-weight: 600;
 }
 
 /* Content */
-main {
-  margin-left: 280px;
-  padding: 60px;
+.content {
+  flex: 1;
+  padding: 60px 80px;
   max-width: 900px;
 }
 
-/* Headings */
-h1, h2, h3 {
-  color: #ffffff;
+/* Headings cleaner */
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
 
-/* Links im Content */
-main a {
-  color: #58a6ff;
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 48px;
+  margin-bottom: 12px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #1f2937;
+  margin: 32px 0;
+}
+
+/* Content links */
+.content a {
+  color: #a63a3a;
   text-decoration: none;
 }
 
-main a:hover {
-  text-decoration: underline;
+.content a:hover {
+  color: #c04646;
 }
