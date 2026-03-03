@@ -228,7 +228,7 @@ der Cache sich selbst aktualisiert, sobald neue Inhalte angefragt werden
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Aufgabe 12: Automatische Reaktion im CDN-Workflow
+    Aufgabe 13: Automatische Reaktion im CDN-Workflow
   </span><br><br>
 
   In diesem Versuch wurde bewusst <b>keine</b> Cloud Function,
@@ -256,7 +256,7 @@ der Cache sich selbst aktualisiert, sobald neue Inhalte angefragt werden
   </ul>
 
   <br>
-  Aufgabe 13:
+  Aufgabe 14:
   <br>
   <b>Bewerten Sie, warum dieses einfache Reaktionsmodell in der Praxis
   für viele Video-on-Demand-Workflows ausreichend ist</b>
