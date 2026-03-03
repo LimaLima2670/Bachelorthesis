@@ -1,3 +1,8 @@
+---
+layout: default
+title: Einführung in den versuch STACKIT
+---
+
 # STACKIT-Praktikumsversuch
 
 ## Versuchsablauf des STACKIT-Versuchs für MVS
