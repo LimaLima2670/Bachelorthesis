@@ -25,7 +25,7 @@ Zur Verbindugn werden wieder ihre Keys benötigt, welche Sie sich notiert haben 
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Frage 4:
+    Aufgabe 4:
   </span><br>
   Was passiert technisch, wenn der zuvor ausgeführte Befehl eingegeben wird?<br>
   Beschreiben Sie, welche Komponenten beteiligt sind und welche Aktionen im Hintergrund ablaufen.
@@ -339,7 +339,7 @@ cat hls_output/master.m3u8
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Aufgabe:
+    Aufgabe 5:
   </span><br>
   Analysieren Sie die Ausgabe der Datei <code>master.m3u8</code>, die mit dem
   Befehl <code>cat</code> angezeigt wurde.<br><br>
@@ -437,7 +437,7 @@ ls -lh testvideo_*.mp4
   margin: 14px 0;
 ">
   <span style="color:cyan; font-weight:bold; font-size:1.2em;">
-    Aufgabe:
+    Aufgabe 6:
   </span><br>
   Fertigen Sie einen Screenshot der abschließenden <em>libx264</em>-Ausgabe an, die nach dem Transcodierungsvorgang in der Konsole angezeigt wird.
   Interpretieren Sie anhand dieser Ausgabe, wie der Encoder die Videodaten verarbeitet hat.
