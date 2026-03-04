@@ -79,3 +79,15 @@ Mit dem Experiment zur **Time-to-First-Byte (TTFB)** wurde der Performancegewinn
 Zusätzlich wurde der Umgang mit **HTTP-Headern und DNS-Auflösung** vertieft. Durch die Analyse von `curl`-Ausgaben und DNS-Abfragen wurde sichtbar, welcher Edge-Server die Inhalte ausliefert und wie CDNs je nach Standort unterschiedliche Server auswählen.
 
 Insgesamt vermittelt der Versuch ein praxisnahes Verständnis dafür, warum CDNs ein unverzichtbarer Bestandteil moderner Medienverteilung sind. Die erlernten Konzepte – Object Storage als Origin, CDN-Caching, Edge-Auslieferung, Performance-Messung und DNS-Mechanismen – treten in der Medientechnik und in realen Streaming- und Video-on-Demand-Systemen regelmäßig auf und bilden eine wichtige Grundlage für weiterführende Experimente und Projekte.
+
+---
+
+<div style="display:flex; justify-content:space-between; margin-top:40px;">
+
+<div>
+<a href="03-inhalte_abrufen.md"><b>← Vorheriges Kapitel</b></a>
+</div>
+
+<div></div>
+
+</div>
