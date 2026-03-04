@@ -131,3 +131,17 @@ Ein öffentlicher CDN-Hostname ermöglichte den Zugriff ohne direkten Speicherzu
 Die Auslieferung konnte sowohl im Browser als auch über Kommandozeilenwerkzeuge getestet werden
 
 Besonders wichtig war die Erkenntnis, dass ein funktionierender Abruf nicht nur von der Datei selbst, sondern von korrekten Zugriffsrechten, DNS-Auflösung und CDN-Konfiguration abhängt.
+
+---
+
+<div style="display:flex; justify-content:space-between; margin-top:40px;">
+
+<div>
+<a href="02-property.md"><b>← Vorheriges Kapitel</b></a>
+</div>
+
+<div>
+<a href="04-fazit.md"><b>Nächstes Kapitel →</b></a>
+</div>
+
+</div>
