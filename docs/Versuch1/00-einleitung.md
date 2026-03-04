@@ -42,7 +42,7 @@ Der Nutzer selbst erhält das Video über einen Browser oder Mediaplayer, ohne d
 zugrunde liegende Infrastruktur wahrzunehmen – für ihn zählt lediglich, dass die
 Wiedergabe schnell, stabil und ohne Unterbrechungen startet.
 
-![ObjectSTorage](../assets/Versuch1/stackit-beispiel.jpg)
+![ObjectSTorage](../assets/stackit-beispiel.jpg)
 
 ## Fastly als Content Delivery Network
 
