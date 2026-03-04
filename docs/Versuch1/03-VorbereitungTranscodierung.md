@@ -8,7 +8,7 @@ Die VM übernimmt in diesem Versuch die Rolle eines **Rechenknotens**, auf dem e
 - Transcoding-Parameter
 - Ablauf des Workflows
 
-![S3 Dashboard](../../assets/Versuch1/StackApp.jpg)
+![S3 Dashboard](../assets/StackApp.jpg)
 
 ### Ablauf im Überblick
 
@@ -34,7 +34,7 @@ Ein eigenes Netzwerk muss nicht erstellt werden..**
 
 **Bitte navigieren SIe an der linken Seite zu dem Reiter richtung Network:**
 
-![S3 Dashboard](../../assets/Versuch1/navinet.jpg)
+![S3 Dashboard](../assets/navinet.jpg)
 
 Das vorhandene Netzwerk muss nicht manuell mit anderen Komponenten verbunden werden.
 
@@ -66,7 +66,7 @@ Das SSH-Schlüsselpaar wird über den folgenden Online-Generator erzeugt:
 
 https://8gwifi.org/sshfunctions.jsp
 
-![S3 Dashboard](../../assets/Versuch1/keykeykey.jpg)
+![S3 Dashboard](../assets/keykeykey.jpg)
 
 1.Öffnen Sie die oben genannte Webseite.
 2.Wählen Sie als Algorithmus RSA.
@@ -110,11 +110,11 @@ Sie haben nun die Möglichkeit das erzeugte Keypaar auf ihrem STACKIT-Konto zu v
 
 **Navigieren sie hierzu als erstes zu ihren Nutzereinstellungen:**
 
-![S3 Dashboard](../../assets/Versuch1/Benutzereinstellungen.jpg) 
+![S3 Dashboard](../assets/Benutzereinstellungen.jpg) 
 
 **Unter Passwort&Sicherheit finden Sie nun den Reiter SSH-Schlüssel. Klicken Sie bitte da drauf:**
 
-![S3 Dashboard](../../assets/Versuch1/keyname.jpg)
+![S3 Dashboard](../assets/keyname.jpg)
 
 **Geben SIe als Namen Ihren Vornamen+Key ein. Zum Beispiel: *leonkey***
 
@@ -142,7 +142,7 @@ Navigieren Sie in der linken Seitenleiste zu:
 
 Networks → Security Groups
 
-![S3 Dashboard](../../assets/Versuch1/createsecugroup.jpg)
+![S3 Dashboard](../assets/createsecugroup.jpg)
 
 In der Übersicht wird mindestens eine Security Group mit dem Namen `default` angezeigt. Diese Security Group ist in der Regel bereits dem Server zugewiesen und kann für den SSH-Zugriff verwendet werden.
 
@@ -180,7 +180,7 @@ Computing → Server
 
 **Navigieren Sie zu **Computing** / Server**
 
-![S3 Dashboard](../../assets/Versuch1/createserver.jpg)
+![S3 Dashboard](../assets/createserver.jpg)
 
 **Klicken Sie auf Create Server**
 
@@ -222,7 +222,7 @@ Einstellungen prüfen
 
 Nun sollten SIe ihren erstellten Server sehen können
 
-![S3 Dashboard](../../assets/Versuch1/serverrunning.jpg)
+![S3 Dashboard](../assets/serverrunning.jpg)
 
 ## Zuweisung einer öffentlichen IP-Adresse zur virtuellen Maschine
 
@@ -238,12 +238,12 @@ Navigieren Sie im linken Menü des Servers zu:
 
 Network → Public IP Address
 
-![S3 Dashboard](../../assets/Versuch1/connip.jpg)
+![S3 Dashboard](../assets/connip.jpg)
 
 
 Diese muss zu guter letzt einfach nur noch mit dem Server verbunden werden:
 
-![S3 Dashboard](../../assets/Versuch1/ipconnect.jpg)
+![S3 Dashboard](../assets/ipconnect.jpg)
 
 
 ## Testen der Verbindung zur virtuellen Maschine per SSH
@@ -262,7 +262,7 @@ ssh ubuntu@<öffentliche-IP-Adresse>
 ```
 Folgende Ausgabe ist hierbei zu erwarten:
 
-![S3 Dashboard](../../assets/Versuch1/sshtest.jpg)
+![S3 Dashboard](../assets/sshtest.jpg)
 
 
 
