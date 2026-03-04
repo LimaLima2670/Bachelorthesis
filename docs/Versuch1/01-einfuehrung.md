@@ -73,6 +73,8 @@ Zur Anmeldung auf StackIT gelangt man über diesen Link: https://portal.stackit.
 
 ---
 
+## Themenauswahl
+
 ⬅️ **Vorheriges Kapitel:**  
 [Einleitung](00-einleitung.md)
 
