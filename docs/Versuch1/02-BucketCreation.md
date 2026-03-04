@@ -146,5 +146,11 @@ s3cmd put PFAD_ZUR_DATEI s3://IHR_BUCKETNAME/
   Wie können Sie nun herausfinden ob der Upload wie geplant funktioniert hat? Recherchieren Sie nach dem benötigten Command und tragen Sie diesen in ihre Abgabemappe ein<br>
 </div>
 
+---
 
+⬅️ **Vorheriges Kapitel:**  
+[Einführung](01-einfuehrung.md)
+
+➡️ **Nächstes Kapitel:**  
+[Vorbereitung der Transcodierung](03-VorbereitungTranscodierung.md)
 
