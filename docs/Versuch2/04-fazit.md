@@ -98,6 +98,9 @@ Insgesamt vermittelt der Versuch ein praxisnahes Verständnis dafür, warum CDNs
 ⬅️ **Vorheriges Kapitel:**  
 [Inhalte abrufen](03-inhalte_abrufen.md)
 
+➡️ **Zum nächsten Versuch:**  
+[Versuch 3 starten](../Versuch3/01-einfuehrung.md)
+
 <div></div>
 
 </div>
