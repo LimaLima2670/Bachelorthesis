@@ -1,4 +1,5 @@
 title: STACKIT-Praktikumsversuch
 description: Versuchsablauf des STACKIT-Versuchs für MVS
-
+baseurl: "/StackItPraktikumThesis"
+url: "https://limalima2670.github.io"
 markdown: kramdown
