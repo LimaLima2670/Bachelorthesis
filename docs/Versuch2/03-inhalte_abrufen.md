@@ -137,11 +137,11 @@ Besonders wichtig war die Erkenntnis, dass ein funktionierender Abruf nicht nur 
 <div style="display:flex; justify-content:space-between; margin-top:40px;">
 
 <div>
-<a href="02-property.md"><b>← Vorheriges Kapitel</b></a>
+<a href="02-property"><b>← Vorheriges Kapitel</b></a>
 </div>
 
 <div>
-<a href="04-fazit.md"><b>Nächstes Kapitel →</b></a>
+<a href="04-fazit"><b>Nächstes Kapitel →</b></a>
 </div>
 
 </div>
