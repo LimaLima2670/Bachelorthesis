@@ -273,17 +273,11 @@ https://<namenachname>.global.ssl.fastly.net/testvideo_1080p.mp4
 
 ---
 
-<div style="display:flex; justify-content:space-between; margin-top:40px;">
+⬅️ **Vorheriges Kapitel:**  
+[Einführung](01-einfuehrung.md)
 
-<div>
-<a href="01-einfuehrung"><b>← Vorheriges Kapitel</b></a>
-</div>
-
-<div>
-<a href="03-inhalte_abrufen"><b>Nächstes Kapitel →</b></a>
-</div>
-
-</div>
+➡️ **Nächstes Kapitel:**  
+[Inhalte abrufen](03-inhalte_abrufen.md)
 
 
 
