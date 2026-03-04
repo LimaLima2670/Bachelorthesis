@@ -52,16 +52,15 @@
   <main class="content">
     <div class="page-container">
 
-      {% if page.name != "index.md" %}
-        {% assign raw = page.name | replace: '.md','' %}
-        {% assign clean = raw | replace: '00-','' | replace: '01-','' | replace: '02-','' | replace: '03-','' | replace: '04-','' | replace: '05-','' %}
-        {% assign title = clean | replace: '-', ' ' %}
-        <h1 class="page-title">{{ title }}</h1>
+      <!-- ===== Rote Kapitelüberschrift ===== -->
+      {% if page.title %}
+        <h1 class="page-title">{{ page.title }}</h1>
       {% endif %}
 
       {{ content }}
 
-      <!-- ===== Automatische Kapitel Navigation ===== -->
+      <!-- ===== Automatische Navigation innerhalb des Ordners ===== -->
+
       {% assign current_dir = page.dir %}
 
       {% assign pages_in_dir = site.pages 
@@ -72,9 +71,7 @@
 
       {% for p in pages_in_dir %}
         {% if p.ext == ".md" %}
-          {% unless p.name == "index.md" %}
-            {% assign md_pages = md_pages | push: p %}
-          {% endunless %}
+          {% assign md_pages = md_pages | push: p %}
         {% endif %}
       {% endfor %}
 
