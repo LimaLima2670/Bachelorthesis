@@ -126,7 +126,7 @@ Die Cloud stellt die Inhalte bereit, während das CDN mit Edge Computing für ei
 <div></div>
 
 <div>
-<a href="02-property.md"><b>Nächstes Kapitel →</b></a>
+<a href="02-property"><b>Nächstes Kapitel →</b></a>
 </div>
 
 </div>
