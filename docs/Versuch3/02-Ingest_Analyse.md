@@ -200,6 +200,14 @@ testvideo_460p.mp4
 
 ![S3 Quellpfad](../assets/versuch3/s3_quellpfad.png)
 
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Einführung](01-einfuehrung.md)
+
+➡️ **Nächstes Kapitel:**  
+[CDN im Realbetrieb](03-CDN Im Realbetrieb.md)
+
 ![S3 Kopie Zielpfad](../assets/versuch3/s3_zielpfad.png)
 
 Kontrollieren Sie, dass die Datei in das richtige Verzeichnis kopiert wurde.
