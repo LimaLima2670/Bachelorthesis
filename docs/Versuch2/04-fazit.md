@@ -91,3 +91,16 @@ Insgesamt vermittelt der Versuch ein praxisnahes Verständnis dafür, warum CDNs
 <div></div>
 
 </div>
+
+
+---
+
+<div style="display:flex; justify-content:space-between; margin-top:40px;">
+
+<div>
+<a href="03-inhalte_abrufen"><b>← Vorheriges Kapitel</b></a>
+</div>
+
+<div></div>
+
+</div>
