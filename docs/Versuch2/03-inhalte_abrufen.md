@@ -134,14 +134,8 @@ Besonders wichtig war die Erkenntnis, dass ein funktionierender Abruf nicht nur 
 
 ---
 
-<div style="display:flex; justify-content:space-between; margin-top:40px;">
+⬅️ **Vorheriges Kapitel:**  
+[Property](02-property.md)
 
-<div>
-<a href="02-property"><b>← Vorheriges Kapitel</b></a>
-</div>
-
-<div>
-<a href="04-fazit"><b>Nächstes Kapitel →</b></a>
-</div>
-
-</div>
+➡️ **Nächstes Kapitel:**  
+[Fazit](04-fazit.md)
