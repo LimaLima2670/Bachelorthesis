@@ -604,9 +604,13 @@ MediaInfo zeigt unter anderem folgende Parameter an:
   </ul>
 </div>
 
-
-
 ---
+
+⬅️ **Vorheriges Kapitel:**  
+[Vorbereitung der Transcodierung](03-VorbereitungTranscodierung.md)
+
+➡️ **Nächstes Kapitel:**  
+[Fazit](05-fazit stackit.md)
 
 
 
