@@ -148,3 +148,18 @@ hr {
   color: #c04646;
   transform: translateY(-2px);
 }
+
+.doc-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.doc-navigation .left {
+  text-align: left;
+}
+
+.doc-navigation .right {
+  text-align: right;
+}
