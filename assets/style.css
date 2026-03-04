@@ -132,6 +132,7 @@ hr {
 .doc-navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 100px;
   padding-top: 35px;
   border-top: 1px solid rgba(255,255,255,0.06);
@@ -149,17 +150,13 @@ hr {
   transform: translateY(-2px);
 }
 
-.doc-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 40px;
-}
-
-.doc-navigation .left {
+.nav-arrow.prev {
   text-align: left;
 }
 
-.doc-navigation .right {
+.nav-arrow.next {
   text-align: right;
+}
+
+
 }
