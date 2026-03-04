@@ -95,15 +95,6 @@ Insgesamt vermittelt der Versuch ein praxisnahes Verständnis dafür, warum CDNs
 
 ---
 
-<div style="display:flex; justify-content:space-between; margin-top:40px;">
-
-<div>
-<a href="03-inhalte_abrufen"><b>← Vorheriges Kapitel</b></a>
-</div>
-
-
----
-
 ⬅️ **Vorheriges Kapitel:**  
 [Inhalte abrufen](03-inhalte_abrufen.md)
 
