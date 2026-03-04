@@ -19,7 +19,7 @@ body {
 
 .sidebar {
   width: 240px;
-  padding: 56px 28px;
+  padding: 48px 28px;
   background-color: #0f172a;
   min-height: 100vh;
   border-right: 1px solid rgba(255,255,255,0.05);
@@ -28,7 +28,7 @@ body {
 .sidebar h2 {
   font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 1px;
   margin-bottom: 28px;
   color: #9ca3af;
   font-weight: 600;
@@ -42,22 +42,20 @@ body {
 
 .sidebar li {
   padding: 12px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.04);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
 .sidebar li:last-child {
   border-bottom: none;
 }
 
-/* 🔴 Ruhiger Rotton */
-
 .sidebar a {
-  text-decoration: none !important;
+  text-decoration: none;
   color: #a63a3a;
   font-size: 15px;
   font-weight: 500;
-  transition: all 0.2s ease;
   display: block;
+  transition: all 0.2s ease;
 }
 
 .sidebar a:hover {
@@ -74,59 +72,47 @@ body {
 
 .content {
   flex: 1;
-  padding: 80px 60px; /* weniger seitlicher Druck */
+  padding: 90px 110px;
+  max-width: 1100px;
 }
 
 .page-container {
-  max-width: 760px;   /* bessere Lesebreite */
-  margin: 0 auto;
+  max-width: 900px;
+}
+
+/* ===== Page Title ===== */
+
+.page-title {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  color: #a63a3a;
+  letter-spacing: -0.5px;
 }
 
 /* ===== Typography ===== */
 
-h1 {
-  font-size: 36px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  letter-spacing: -0.3px;
-}
-
 h2 {
-  font-size: 22px;
+  font-size: 26px;
   font-weight: 600;
-  margin-top: 56px;
+  margin-top: 70px;
   margin-bottom: 18px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 p {
   margin-bottom: 20px;
-  color: #d1d5db;
 }
 
 hr {
   border: none;
-  border-top: 1px solid rgba(255,255,255,0.06);
-  margin: 48px 0;
-}
-
-/* ===== Images ===== */
-
-.content img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
-  margin: 32px 0;
-}
-
-/* Optional: große Screenshots etwas begrenzen */
-.content img.large {
-  max-width: 720px;
+  border-top: 1px solid rgba(255,255,255,0.07);
+  margin: 50px 0;
 }
 
 /* ===== Content Links ===== */
@@ -147,7 +133,7 @@ hr {
   display: flex;
   justify-content: space-between;
   margin-top: 100px;
-  padding-top: 32px;
+  padding-top: 35px;
   border-top: 1px solid rgba(255,255,255,0.06);
 }
 
