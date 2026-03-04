@@ -52,20 +52,25 @@
   <main class="content">
     <div class="page-container">
 
+      {% if page.name != "index.md" %}
+        {% assign raw = page.name | replace: '.md','' %}
+        {% assign clean = raw | replace: '00-','' | replace: '01-','' | replace: '02-','' | replace: '03-','' | replace: '04-','' | replace: '05-','' %}
+        {% assign title = clean | replace: '-', ' ' %}
+        <h1 class="page-title">{{ title }}</h1>
+      {% endif %}
+
       {{ content }}
 
-      <!-- ===== Saubere automatische Kapitel Navigation ===== -->
+      <!-- ===== Automatische Kapitel Navigation ===== -->
+      {% assign current_dir = page.dir %}
 
-      {% assign path_parts = page.path | split: '/' %}
-      {% assign folder_path = path_parts[0] | append: '/' | append: path_parts[1] %}
-
-      {% assign pages_in_folder = site.pages
-        | where_exp: "p", "p.path contains folder_path"
+      {% assign pages_in_dir = site.pages 
+        | where_exp: "p", "p.dir == current_dir"
       %}
 
       {% assign md_pages = "" | split: "" %}
 
-      {% for p in pages_in_folder %}
+      {% for p in pages_in_dir %}
         {% if p.ext == ".md" %}
           {% unless p.name == "index.md" %}
             {% assign md_pages = md_pages | push: p %}
@@ -73,10 +78,9 @@
         {% endif %}
       {% endfor %}
 
-      {% assign sorted_pages = md_pages | sort: "path" %}
+      {% assign sorted_pages = md_pages | sort: "name" %}
 
       {% assign current_index = 0 %}
-
       {% for p in sorted_pages %}
         {% if p.path == page.path %}
           {% assign current_index = forloop.index0 %}
