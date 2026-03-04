@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }}</title>
 
-  <!-- Moderne Schrift -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-
-  <!-- Eigenes CSS -->
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 
@@ -57,18 +54,30 @@
 
       {{ content }}
 
-      <!-- ===== Automatische Kapitel Navigation ===== -->
+      <!-- ===== Saubere automatische Kapitel Navigation ===== -->
 
       {% assign path_parts = page.path | split: '/' %}
-      {% assign current_folder = path_parts[1] %}
+      {% assign folder_path = path_parts[0] | append: '/' | append: path_parts[1] %}
 
-      {% assign folder_pages = site.pages 
-        | where_exp: "p", "p.path contains current_folder"
-        | sort: "path" %}
+      {% assign pages_in_folder = site.pages
+        | where_exp: "p", "p.path contains folder_path"
+      %}
+
+      {% assign md_pages = "" | split: "" %}
+
+      {% for p in pages_in_folder %}
+        {% if p.ext == ".md" %}
+          {% unless p.name == "index.md" %}
+            {% assign md_pages = md_pages | push: p %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign sorted_pages = md_pages | sort: "path" %}
 
       {% assign current_index = 0 %}
 
-      {% for p in folder_pages %}
+      {% for p in sorted_pages %}
         {% if p.path == page.path %}
           {% assign current_index = forloop.index0 %}
         {% endif %}
@@ -78,14 +87,14 @@
 
         {% if current_index > 0 %}
           <a class="nav-arrow left"
-             href="{{ folder_pages[current_index | minus: 1].url | relative_url }}">
+             href="{{ sorted_pages[current_index | minus: 1].url | relative_url }}">
             ← Zurück
           </a>
         {% endif %}
 
-        {% if current_index < folder_pages.size | minus: 1 %}
+        {% if current_index < sorted_pages.size | minus: 1 %}
           <a class="nav-arrow right"
-             href="{{ folder_pages[current_index | plus: 1].url | relative_url }}">
+             href="{{ sorted_pages[current_index | plus: 1].url | relative_url }}">
             Weiter →
           </a>
         {% endif %}
@@ -96,9 +105,6 @@
   </main>
 
 </div>
-
-</body>
-</html>
 
 </body>
 </html>
