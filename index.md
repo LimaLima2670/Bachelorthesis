@@ -35,6 +35,6 @@ Der Umfang des Berichts soll sich an ca. 3–5 Seiten pro Versuch orientieren.
 ## Abgabeformat
 
 Die Abgabe erfolgt in Form einer PDF-Datei.
-Die Benennung erfolgt nach dem Schema:
+//leave blank for future wishes//
 
 
