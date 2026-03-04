@@ -265,6 +265,14 @@ der Cache sich selbst aktualisiert, sobald neue Inhalte angefragt werden
 
 </div>
 
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[CDN im Realbetrieb](03-CDN Im Realbetrieb.md)
+
+➡️ **Nächstes Kapitel:**  
+[Fazit](05-fazit.md)
+
 
 
 
