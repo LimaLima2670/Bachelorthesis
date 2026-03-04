@@ -42,7 +42,7 @@ Der Nutzer selbst erhält das Video über einen Browser oder Mediaplayer, ohne d
 zugrunde liegende Infrastruktur wahrzunehmen – für ihn zählt lediglich, dass die
 Wiedergabe schnell, stabil und ohne Unterbrechungen startet.
 
-![ObjectSTorage](../../assets/Versuch1/stackit-beispiel.jpg)
+![ObjectSTorage](../assets/Versuch1/stackit-beispiel.jpg)
 
 ## Fastly als Content Delivery Network
 
@@ -112,7 +112,7 @@ Bereitstellung vollständig betriebener Anwendungen[^1].
 Cloud-Produkte lassen sich in der Regel über eine grafische Weboberfläche verwalten.
 Bei STACKIT erfolgt der Zugriff über das STACKIT Portal.
 
-![ObjectSTorage](../../assets/Versuch1/StackIT-GUI.jpg)
+![ObjectSTorage](../assets/StackIT-GUI.jpg)
 
 ### Kommandozeile
 
