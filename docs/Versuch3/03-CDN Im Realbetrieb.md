@@ -54,3 +54,10 @@ Eine technische Umsetzung ist **nicht erforderlich**.
 
 </div>
 
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Ingest Analyse](02-Ingest_Analyse.md)
+
+➡️ **Nächstes Kapitel:**  
+[Automatisierungsbeispiel](04-Automatisierungsbeispiel.md)
