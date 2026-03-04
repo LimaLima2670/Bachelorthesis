@@ -64,3 +64,9 @@ Das Transcoding in diesem Versuch ist ein typisches Beispiel:
 -das Ergebnis steht erst später zur Verfügung
 
 Statusmeldungen und Logging sind besonders bei asynchronen Prozessen wichtig, da der Fortschritt nicht sofort sichtbar ist.
+
+---
+
+➡️ **Nächstes Kapitel:**  
+[Ingest Analyse](02-Ingest_Analyse.md)
+
