@@ -42,3 +42,8 @@ Eigene Experimente mit abweichenden Transcodierungsparametern sind ausdrücklich
 ⬅️ **Vorheriges Kapitel:**  
 [FFmpeg Transcoding](04-ffmpegtranscode.md)
 
+➡️ **Zum nächsten Versuch:**  
+[Versuch 2 starten](../Versuch2/01-einfuehrung.md)
+
+
+
