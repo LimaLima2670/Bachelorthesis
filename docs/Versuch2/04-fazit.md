@@ -101,6 +101,12 @@ Insgesamt vermittelt der Versuch ein praxisnahes Verständnis dafür, warum CDNs
 <a href="03-inhalte_abrufen"><b>← Vorheriges Kapitel</b></a>
 </div>
 
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[Inhalte abrufen](03-inhalte_abrufen.md)
+
 <div></div>
 
 </div>
