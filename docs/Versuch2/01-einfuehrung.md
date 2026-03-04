@@ -118,3 +118,16 @@ In diesem Versuch wird das Zusammenspiel beider Konzepte deutlich:
 
 Dieses Zusammenspiel ist typisch für moderne Video-on-Demand-Systeme.  
 Die Cloud stellt die Inhalte bereit, während das CDN mit Edge Computing für eine schnelle, skalierbare und zuverlässige Auslieferung an Endnutzer sorgt.
+
+---
+
+<div style="display:flex; justify-content:space-between; margin-top:40px;">
+
+<div></div>
+
+<div>
+<a href="02-property.md"><b>Nächstes Kapitel →</b></a>
+</div>
+
+</div>
+
