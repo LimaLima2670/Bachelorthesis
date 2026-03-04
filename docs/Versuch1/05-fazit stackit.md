@@ -36,3 +36,9 @@ In der Abgabe sollten die im Laufe des Versuchs erzeugten transcodierten Dateien
 
 Eigene Experimente mit abweichenden Transcodierungsparametern sind ausdrücklich erwünscht und können zusätzlich dokumentiert und abgegeben werden. Diese Zusatzarbeit fließt natürlich psoitiv in Ihre Bewertung ein.
 
+
+---
+
+⬅️ **Vorheriges Kapitel:**  
+[FFmpeg Transcoding](04-ffmpegtranscode.md)
+
