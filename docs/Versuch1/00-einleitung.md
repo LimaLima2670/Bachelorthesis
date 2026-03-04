@@ -121,3 +121,9 @@ Kommandozeilenwerkzeugen (CLI) und Skripten verwaltet werden.
 
 [^1]: Der Begriff dient außerdem zur Beschreibung von Geschäftsmodellen, bei denen
 Software als Abonnement bereitgestellt wird.
+
+---
+
+➡️ **Nächstes Kapitel:**  
+[Einführung](01-einfuehrung.md)
+
