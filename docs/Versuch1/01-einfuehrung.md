@@ -32,7 +32,7 @@ Im Gegensatz zu klassischen Ordnerstrukturen werden die Daten hier als einzelne 
 
 Für diesen Praktikumsversuch wird STACKIT Object Storage verwendet. Über die Weboberfläche des STACKIT Control Centers oder über standardisierte Schnittstellen (S3-kompatible API) können Dateien hochgeladen und verwaltet werden. In diesem Versuch dient der Objektspeicher als Ablageort für die hochgeladenen Videodateien sowie für die später erzeugten, transcodierten Versionen.
 
-⚠️ Achtung – Kosten
+⚠️ Achtung 
 Für gespeicherte Daten fallen laufende Kosten an, außerdem können Kosten für den Datenabruf entstehen. Bei den im Rahmen dieses Versuchs verwendeten kleinen Datenmengen sind diese Kosten sehr gering. Bei größeren Projekten mit vielen oder sehr großen Dateien können die Speicher- und Übertragungskosten jedoch deutlich steigen.
 ### Transcodierer (*über Virtual-Machine*)
 
