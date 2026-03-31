@@ -119,8 +119,7 @@ Bei STACKIT erfolgt der Zugriff über das STACKIT Portal.
 Neben der grafischen Oberfläche können Cloud-Ressourcen auch mithilfe von
 Kommandozeilenwerkzeugen (CLI) und Skripten verwaltet werden.
 
-[^1]: Der Begriff dient außerdem zur Beschreibung von Geschäftsmodellen, bei denen
-Software als Abonnement bereitgestellt wird.
+
 
 ---
 
