@@ -174,34 +174,84 @@ Speichern Sie die Regel nach dem Eintragen der Werte. Die Änderung wird sofort 
 
 **Klicken Sie auf Create Server**
 
-| Reiter | Ausfüllen mit... |
-|--------|------------------|
-| Name | namenachnamevm1337 |
-| Availability Zone | EU01-2 |
-| Betriebssystem | Ubuntu |
-| Version | Ubuntu 24.04 |
-| STACKIT Server Agent | aktiviert |
-| Leistungsklasse | Performance Class 2 |
-| Volumengröße | 60 GB |
-| Boot-Volume beim Löschen löschen | nicht aktivieren |
+<p><strong>Klicken Sie auf Create Server</strong></p>
 
----
+<table>
+  <tr>
+    <th>Reiter</th>
+    <th>Ausfüllen mit...</th>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td>namenachnamevm1337</td>
+  </tr>
+  <tr>
+    <td>Availability Zone</td>
+    <td>EU01-2</td>
+  </tr>
+  <tr>
+    <td>Betriebssystem</td>
+    <td>Ubuntu</td>
+  </tr>
+  <tr>
+    <td>Version</td>
+    <td>Ubuntu 24.04</td>
+  </tr>
+  <tr>
+    <td>STACKIT Server Agent</td>
+    <td>aktiviert</td>
+  </tr>
+  <tr>
+    <td>Leistungsklasse</td>
+    <td>Performance Class 2</td>
+  </tr>
+  <tr>
+    <td>Volumengröße</td>
+    <td>60 GB</td>
+  </tr>
+  <tr>
+    <td>Boot-Volume beim Löschen löschen</td>
+    <td>nicht aktivieren</td>
+  </tr>
+</table>
 
-**Flavors**
+<hr>
 
-| Reiter | Ausfüllen mit... |
-|--------|------------------|
-| Kategorie | Allgemeine Zwecke |
-| Auswahl | g2i.2 2 CPU 8GB RAM |
+<p><strong>Flavors</strong></p>
 
----
+<table>
+  <tr>
+    <th>Reiter</th>
+    <th>Ausfüllen mit...</th>
+  </tr>
+  <tr>
+    <td>Kategorie</td>
+    <td>Allgemeine Zwecke</td>
+  </tr>
+  <tr>
+    <td>Auswahl</td>
+    <td>g2i.2 2 CPU 8GB RAM</td>
+  </tr>
+</table>
 
-**Management**
+<hr>
 
-| Reiter | Ausfüllen mit... |
-|--------|------------------|
-| Server Backup Management Service | deaktiviert |
-| Server Update Management Service | deaktiviert |
+<p><strong>Management</strong></p>
+
+<table>
+  <tr>
+    <th>Reiter</th>
+    <th>Ausfüllen mit...</th>
+  </tr>
+  <tr>
+    <td>Server Backup Management Service</td>
+    <td>deaktiviert</td>
+  </tr>
+  <tr>
+    <td>Server Update Management Service</td>
+    <td>deaktiviert</td>
+  </tr>
+</table>
 
 ---
 
