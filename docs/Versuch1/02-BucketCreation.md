@@ -3,7 +3,7 @@
 Zuerst wird der Speicherort für die transcodierten Dateien angelegt.  
 Dazu wird der **STACKIT Object Storage** verwendet, ein S3-kompatibler Objektspeicher.
 
-**Der Zugriff erfolgt über das **STACKIT Portal** im Browser. Auf der rechten Reiterseite. Hier findet man unter dem Reiter Computing den Unterpunkt "Object storage"**
+**Der Zugriff erfolgt über das STACKIT Portal im Browser. Auf der rechten Reiterseite. Hier findet man unter dem Reiter Computing den Unterpunkt "Object storage"**
 
 ![ObjectSTorage](../assets/enableobjectstorage.jpg)
 
