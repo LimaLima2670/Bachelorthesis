@@ -125,7 +125,7 @@ Save settings? [y/N]: y
 ```
 ## Upload des Videos in den Bucket
 
- Laden Sie das bereitgestellte **testvideo.mp4** aus der E-Mail XYZ herunter.
+ Laden Sie das bereitgestellte **testvideo.mp4** aus der von Ihnen bereitgestellten E-Mail der Lehrveranstaltung mit dem Betreff "Testvideo MVS-P"  herunter.
 
 Geben Sie in der Console nun folegenden Befehl ein 
 
