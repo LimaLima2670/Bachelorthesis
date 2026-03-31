@@ -94,12 +94,16 @@ Bedeutet:**Geben Sie folgende Befehle in das gleiche Powershellfenster ein, wo s
 sudo apt update
 ```
 
-**Geben Sie bitte danach folgendes in die Konsole ein:**
+**Dieser Befehl aktualisiert die Paketlisten des Systems. Dabei wird geprüft, welche neuen Versionen von Software verfügbar sind, ohne sie direkt zu installieren.**
 
 
 ```bash
 sudo apt install ffmpeg -y
 ```
+
+**Dieser Befehl installiert das Programm ffmpeg, das für die Verarbeitung und Konvertierung von Audio- und Videodateien verwendet wird.
+Die Option -y sorgt dafür, dass alle Rückfragen automatisch mit „Ja“ bestätigt werden.**
+
 **Nach erfolgreicher Ausführung sollten sie folgende Meldung bekommen:**
 
 ![S3 Dashboard](../assets/nonono.jpg)
