@@ -237,7 +237,7 @@ Nachdem sich die Videodatei lokal auf der virtuellen Maschine befindet und vom B
 Für die Transcodierung wird das Kommandozeilenwerkzeug **FFmpeg** verwendet. FFmpeg liest die Quelldatei ein, dekodiert sie und erzeugt neue Ausgabedateien mit den vorgegebenen Parametern.
 
 
-## ErTranscodierung für adaptives Streaming (HLS)
+## Transcodierung für adaptives Streaming (HLS)
 
 Neben der Erzeugung klassischer MP4-Distributionsdateien werden in modernen
 Video-on-Demand-Systemen häufig adaptive Streaming-Formate eingesetzt.
