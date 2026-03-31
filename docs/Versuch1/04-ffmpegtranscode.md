@@ -532,7 +532,7 @@ In diesem Ordner werden später sowohl die Videodateien als auch die Analyseerge
 **Nach Abschluss des Uploads wird überprüft, ob die Dateien erfolgreich im Object Storage abgelegt wurden:**
 
 ```bash
-scp ubuntu@192.214.178.41:~/transcoded_download/testvideo_1080p.mp4 "$env:USERPROFILE\Desktop\MediaInfo_<NAME>"
+scp ubuntu@<IP des Servers>:~/transcoded_download/testvideo_1080p.mp4 "$env:USERPROFILE\Desktop\MediaInfo_<NAME>"
 ```
 
 
