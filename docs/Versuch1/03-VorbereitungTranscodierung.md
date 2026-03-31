@@ -165,16 +165,6 @@ Beschreibung: SSH Zugriff
 
 Speichern Sie die Regel nach dem Eintragen der Werte. Die Änderung wird sofort wirksam.
 
-### Überprüfung der Zuweisung zum Server
-
-Nach dem Anlegen der Regel sollte überprüft werden, ob die Security Group dem Server zugewiesen ist.
-
-Navigieren Sie hierzu zu:
-
-Computing → Server
-
-Öffnen Sie den zuvor erstellten Server und kontrollieren Sie im Bereich Netzwerk, ob die Security Group `default` ausgewählt ist. Falls dies nicht der Fall ist, muss die Security Group manuell zugewiesen werden.
-
 
 ## Virtual Machine erstellen
 
