@@ -2,7 +2,7 @@
 
 ## Kurzfassung
 
-Im Rahmen dieser Bachelorarbeit werden praktische Versuche zur Untersuchung
+Im Rahmen dieses Praktikumsversuches werden praktische Versuche zur Untersuchung
 cloudbasierter Video-Transcoding- und Content-Auslieferungs-Workflows durchgeführt.
 Ziel ist es, ein grundlegendes Verständnis für den Aufbau, die Konfiguration
 sowie die Bewertung entsprechender Cloud-Infrastrukturen zu erlangen.
