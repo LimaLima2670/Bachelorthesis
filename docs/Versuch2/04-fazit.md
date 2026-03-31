@@ -28,9 +28,7 @@ https://<username>.global.ssl.fastly.net/testvideo_1080p.mp4
 und führen Sie folgenden Befehl aus:
 
 ```bash
-curl.exe -w "TTFB Origin: %{time_starttransfer}`n" -o NUL -s `
-https://object.storage.eu01.onstackit.cloud/leonueberholz-4567/testvideo_1080p.mp4
-
+curl -w "TTFB Origin: %{time_starttransfer}\n" -o /dev/null -s https://object.storage.eu01.onstackit.cloud/<DEIN BUCKETNAME>/testvideo_1080p.mp4
 ```
 
 **Dieser misst die Zeit des Origin downloads:**
