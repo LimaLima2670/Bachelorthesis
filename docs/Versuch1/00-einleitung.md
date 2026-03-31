@@ -97,12 +97,12 @@ Container-Orchestrierung.
 **Software as a Service (SaaS)**  
 Bereitstellung vollständig betriebener Anwendungen[^1].
 
-!!! info
+ℹ️
     Für die folgenden Versuche werden Dienste der STACKIT-Cloud für Speicherung,
     Verarbeitung und Monitoring sowie das Content Delivery Network (CDN) von Fastly
     verwendet.
 
-!!! danger "Kosten"
+⚠️
     Die genutzten Cloud- und CDN-Dienste sind nutzungsabhängig kostenpflichtig.
     Nach Abschluss eines Versuchs müssen alle nicht mehr benötigten Ressourcen
     überprüft und gegebenenfalls gelöscht werden.
