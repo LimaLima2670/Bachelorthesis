@@ -174,34 +174,28 @@ Speichern Sie die Regel nach dem Eintragen der Werte. Die Änderung wird sofort 
 
 **Klicken Sie auf Create Server**
 
-**Klicken Sie auf Create Server**
+- **Name:** namenachnamevm1337  
+- **Availability Zone:** EU01-2  
+- **Betriebssystem:** Ubuntu  
+- **Version:** Ubuntu 24.04  
+- **STACKIT Server Agent:** aktiviert  
+- **Leistungsklasse:** Performance Class 2  
+- **Volumengröße:** 60 GB  
+- **Boot-Volume beim Löschen löschen:** nicht aktivieren  
 
-| Reiter | Ausfüllen mit... |
-|--------|------------------|
-| Name | namenachnamevm1337 |
-| Availability Zone | EU01-2 |
-| Betriebssystem | Ubuntu |
-| Version | Ubuntu 24.04 |
-| STACKIT Server Agent | aktiviert |
-| Leistungsklasse | Performance Class 2 |
-| Volumengröße | 60 GB |
-| Boot-Volume beim Löschen löschen | nicht aktivieren |
+---
 
 ## Flavors
 
-| Reiter | Ausfüllen mit... |
-|--------|------------------|
-| Kategorie | Allgemeine Zwecke |
-| Auswahl | g2i.2 2 CPU 8GB RAM |
+- **Kategorie:** Allgemeine Zwecke  
+- **Auswahl:** g2i.2 2 CPU 8GB RAM  
+
+---
 
 ## Management
 
-| Reiter | Ausfüllen mit... |
-|--------|------------------|
-| Server Backup Management Service | deaktiviert |
-| Server Update Management Service | deaktiviert |
-
----
+- **Server Backup Management Service:** deaktiviert  
+- **Server Update Management Service:** deaktiviert  
 
 **Network**
 **Wählen Sie hier ihr vorher erzeugtes Netzwerk aus**
